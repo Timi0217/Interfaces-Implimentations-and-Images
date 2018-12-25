@@ -1,0 +1,12 @@
+A programming technique that my partner and I have both taken great pains to
+incorporate into our programming practice since the start of the term is
+incremental and unit testing of functions to prevent cascading errors. We had
+both experienced cases in COMP15 where lack of testing each function as we
+made them led to hard-to-fix errors that would have been easy to find and 
+fix if we had tested our functions as we made them. Explaining this technique
+to student midway through COMP15, I would say "TEST EACH FUNCTION AS YOU WRITE
+THEM!" That way you know that at any given point in time, the functions in 
+your current program work as you want them to. Have a main function for 
+testing that calls these functions as they are written, 
+and ensures that they perform the operations and return the values that they 
+are supposed to.
