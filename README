@@ -1,8 +1,14 @@
 Program Creators: Timi Dayo-Kayode and Favour Okereke-Mba
 
-We adapted the unboxed array abstraction to support two-dimensional arrays. This adaptation was called UArray2. 
+We adapted the unboxed array abstraction to support two-dimensional arrays. This adaptation was called UArray2 and is in the UArray 2 module. We defined an interface and built an implementation for UArray2.
 
-We have correctly implemented the interface for UArray2_T, Bit2_t abstarct data 
+The Bit2 module is an interface to support two-dimensional arrays of bits.
+
+The sudoku module represents a use case of the UArray2 interface. The UArray2 interface was used to identify solutions to identify Sudoku solutions.
+
+The unblackedges module represents a use case of the Bit2 interface. It removes black edges from an input file through bit manipulation. 
+
+We have correctly implemented the interface for UArray2_T, Bit2_t abstract data 
 structures. We have also correctly implemented sudoku.c and unblackedges.c to 
 the best of our knowledge as given by the specifications. 
 
